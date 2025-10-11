@@ -24,24 +24,27 @@ A fast, modern marketing site for fractional CTO and automation services, built 
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd fractional-cto-automation
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Set up environment variables:
-Create a `.env.local` file in the root directory with:
+   Create a `.env.local` file in the root directory with:
+
 ```env
 NEXT_PUBLIC_BRAND_NAME="Fractional CTO + Automation"
 NEXT_PUBLIC_CALENDLY_URL="https://calendly.com/your-handle/30min"
@@ -51,6 +54,7 @@ NEXT_PUBLIC_SITE_URL="https://your-domain.com"
 ```
 
 4. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -97,16 +101,19 @@ fractional-cto-automation/
 ### Deploy to Vercel
 
 1. Install Vercel CLI:
+
 ```bash
 npm i -g vercel
 ```
 
 2. Deploy:
+
 ```bash
 vercel
 ```
 
 3. Follow the prompts and then deploy to production:
+
 ```bash
 vercel --prod
 ```
@@ -114,6 +121,7 @@ vercel --prod
 ### Environment Variables on Vercel
 
 After deployment, add the environment variables in the Vercel dashboard:
+
 1. Go to your project settings
 2. Navigate to "Environment Variables"
 3. Add all the `NEXT_PUBLIC_*` variables
@@ -127,6 +135,7 @@ After deployment, add the environment variables in the Vercel dashboard:
 ## Performance
 
 The site is optimized for performance with:
+
 - Lighthouse scores of 95+ for Performance, Best Practices, and SEO
 - Lazy loading of components
 - Optimized images and fonts
@@ -137,6 +146,7 @@ The site is optimized for performance with:
 ### Updating Content
 
 Most content can be updated through environment variables or by editing the component files directly:
+
 - Services: Edit `components/Services.tsx`
 - Pricing: Edit `components/Pricing.tsx`
 - FAQ: Edit `components/FAQ.tsx`
@@ -145,6 +155,7 @@ Most content can be updated through environment variables or by editing the comp
 ### Styling
 
 The site uses Tailwind CSS with a neutral color palette. To customize:
+
 - Edit `tailwind.config.ts` for theme customization
 - Update `app/globals.css` for global styles
 - Component styles are inline using Tailwind classes
