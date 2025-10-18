@@ -76,7 +76,7 @@ export const Booking: React.FC = () => {
                 Prefer Email?
               </h3>
               <p className="text-slate-600">
-                Send us your requirements and we&apos;ll respond within 24 hours
+                Send us your requirements and we&apos;ll get back to you promptly
               </p>
               <Button
                 href={`mailto:${CONTACT_EMAIL}`}

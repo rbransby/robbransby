@@ -14,7 +14,7 @@ const faqItems: FAQItem[] = [
   {
     id: 'who-is-this-for',
     question: 'Who is this for?',
-    answer: 'Owner-operators and SME teams (10–200 staff) that want senior technology leadership without a full-time CTO, plus hands-on automation to remove manual work fast.',
+    answer: 'Owner-operators and SME teams (10–200 staff) that need senior technology leadership and hands-on automation to streamline operations and remove manual work.',
   },
   {
     id: 'what-tools',
@@ -24,7 +24,7 @@ const faqItems: FAQItem[] = [
   {
     id: 'time-to-value',
     question: 'How long to see value?',
-    answer: 'First automation shipped in 1–2 weeks and a clear 90-day roadmap in the first month.',
+    answer: 'Initial automation typically delivered within 2–3 weeks, with a clear 90-day roadmap established early on.',
   },
   {
     id: 'location',

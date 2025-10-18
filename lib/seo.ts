@@ -7,7 +7,7 @@ const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'hello@example.co
 export const siteConfig = {
   name: BRAND_NAME,
   title: `${BRAND_NAME} — ${CITY}`,
-  description: 'On-demand CTO leadership + hands-on AI automations. We help Perth-based SMEs streamline operations, cut costs, and scale smarter with senior technology strategy and rapid automation delivery.',
+  description: 'On-demand CTO leadership + hands-on AI automations. We help Perth-based SMEs streamline operations, cut costs, and scale smarter with senior technology strategy and practical automation solutions.',
   tagline: 'On-demand CTO leadership + hands-on AI automations',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://fractional-cto-automation.vercel.app',
   email: CONTACT_EMAIL,
