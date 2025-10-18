@@ -24,22 +24,22 @@ const pricingTiers: PricingTier[] = [
       'Full technology assessment',
       '90-day roadmap',
       'Quick wins identified',
-      'Technology stack review',
-      'Process optimization recommendations',
+      'Vendor & stack recommendations',
+      'Security & compliance review',
     ],
     cta: 'Book audit call',
   },
   {
     id: 'engagement',
     name: 'Ongoing Engagement',
-    price: '$3k–8k',
+    price: 'Custom',
     period: '/month',
     features: [
       'Continuous automation delivery',
-      'Weekly strategy calls',
+      'Regular strategy sessions',
       'Advanced dashboards & reporting',
-      'Dedicated support channel',
-      'Full CTO services',
+      'Dedicated communication channel',
+      'Full CTO advisory services',
     ],
     cta: 'Get started',
     highlighted: true,
@@ -55,7 +55,7 @@ export const Pricing: React.FC = () => {
           subtitle="Choose the engagement that fits your needs. All prices in AUD."
         />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {pricingTiers.map((tier) => (
             <Card
               key={tier.id}
