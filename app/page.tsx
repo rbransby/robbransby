@@ -147,7 +147,7 @@ export default function HomePage() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>First automation in 1-2 weeks</span>
+                <span>Quick wins delivered fast</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg

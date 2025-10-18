@@ -22,7 +22,7 @@ const pricingTiers: PricingTier[] = [
     period: 'one-off',
     features: [
       'Full technology assessment',
-      '90-day automation roadmap',
+      '90-day roadmap',
       'Quick wins identified',
       'Vendor & stack recommendations',
       'Security & compliance review',
