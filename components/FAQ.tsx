@@ -24,7 +24,7 @@ const faqItems: FAQItem[] = [
   {
     id: 'time-to-value',
     question: 'How long to see value?',
-    answer: 'First automation shipped in 1–2 weeks and a clear 90-day roadmap in the first month.',
+    answer: 'Quick wins delivered within weeks and a clear 90-day roadmap in the first month.',
   },
   {
     id: 'location',
