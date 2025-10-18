@@ -17,52 +17,32 @@ interface PricingTier {
 const pricingTiers: PricingTier[] = [
   {
     id: 'audit',
-    name: 'Audit',
+    name: 'One-Off Audit',
     price: '$1.5k–3k',
     period: 'one-off',
     features: [
       'Full technology assessment',
       '90-day automation roadmap',
       'Quick wins identified',
+      'Vendor & stack recommendations',
+      'Security & compliance review',
     ],
     cta: 'Book audit call',
   },
   {
-    id: 'starter',
-    name: 'Starter',
-    price: '$2k–3k',
+    id: 'engagement',
+    name: 'Ongoing Engagement',
+    price: 'Custom',
     period: '/month',
     features: [
-      '1–2 automations per month',
-      'Monthly strategy calls',
-      'Basic reporting setup',
+      'Continuous automation delivery',
+      'Regular strategy sessions',
+      'Advanced dashboards & reporting',
+      'Dedicated communication channel',
+      'Full CTO advisory services',
     ],
     cta: 'Get started',
-  },
-  {
-    id: 'growth',
-    name: 'Growth',
-    price: '$4k–6k',
-    period: '/month',
-    features: [
-      '3–5 automations per month',
-      'Weekly check-ins',
-      'Advanced dashboards',
-    ],
-    cta: 'Scale up',
     highlighted: true,
-  },
-  {
-    id: 'scale',
-    name: 'Scale',
-    price: '$7k+',
-    period: '/month',
-    features: [
-      'Unlimited automations',
-      'Dedicated slack channel',
-      'Full CTO services',
-    ],
-    cta: 'Contact us',
   },
 ];
 
@@ -75,7 +55,7 @@ export const Pricing: React.FC = () => {
           subtitle="Choose the engagement that fits your needs. All prices in AUD."
         />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {pricingTiers.map((tier) => (
             <Card
               key={tier.id}
