@@ -104,7 +104,7 @@ export default function HomePage() {
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
               We help Perth-based SMEs streamline operations, cut costs, and scale smarter — 
-              combining senior technology strategy with rapid automation delivery.
+              combining senior technology strategy with practical automation solutions.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -147,7 +147,7 @@ export default function HomePage() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>First automation in 1-2 weeks</span>
+                <span>Fast turnaround on deliverables</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg

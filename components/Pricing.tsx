@@ -34,7 +34,7 @@ const pricingTiers: PricingTier[] = [
     period: '/month',
     features: [
       '1–2 automations per month',
-      'Monthly strategy calls',
+      'Regular strategy sessions',
       'Basic reporting setup',
     ],
     cta: 'Get started',
@@ -45,8 +45,8 @@ const pricingTiers: PricingTier[] = [
     price: '$4k–6k',
     period: '/month',
     features: [
-      '3–5 automations per month',
-      'Weekly check-ins',
+      '2–4 automations per month',
+      'Regular check-ins',
       'Advanced dashboards',
     ],
     cta: 'Scale up',
@@ -58,9 +58,9 @@ const pricingTiers: PricingTier[] = [
     price: '$7k+',
     period: '/month',
     features: [
-      'Unlimited automations',
-      'Dedicated slack channel',
-      'Full CTO services',
+      'Priority automation pipeline',
+      'Direct communication channel',
+      'Comprehensive CTO services',
     ],
     cta: 'Contact us',
   },

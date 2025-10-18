@@ -38,7 +38,7 @@ const services: Service[] = [
     features: [
       'Power BI / Metabase',
       'KPIs for operations & finance',
-      'Exec insights delivered weekly',
+      'Executive insights & reporting',
     ],
   },
 ];
